@@ -1,0 +1,94 @@
+* {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(241, 216, 182);
+}
+
+.main-container h1 {
+  color: black;
+  font-size: 65px;
+  position: absolute;
+  border-bottom: black solid 3px;
+  padding-bottom: 3px;
+  margin-top: 0.5%;
+  margin-left: 28%;
+}
+
+.calculator {
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.button {
+  width: 45px;
+  height: 50px;
+  background-color: whitesmoke;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  border: none;
+  margin:1px;
+}
+
+.button:hover{
+  background-color: rgb(170, 170, 170);
+}
+
+.button-equal{
+  width: 45px;
+  height: 102px;
+  background-color: whitesmoke;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  border: none;
+  margin:1px;
+}
+
+.button-equal:hover{
+  background-color: rgb(170,170,170);
+}
+
+.button-zero{
+  width: 92px;
+  height: 50px;
+  background-color: whitesmoke;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  border: none;
+  margin:1px;
+}
+
+.button-zero:hover{
+  background-color: rgb(170, 170, 170);
+}
+
+#result{
+  background-color: whitesmoke;
+  width:192px;
+  height: 35px;
+  margin:3px;
+  color:black;
+  font-size: 26px;
+  text-align: right;
+ 
+
+
+}
+
+
+
